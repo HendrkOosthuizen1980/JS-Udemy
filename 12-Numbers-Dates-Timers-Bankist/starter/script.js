@@ -284,6 +284,8 @@ console.log(Number.isInteger(23.0));
 console.log(Number.isInteger(23 / 0));
 */
 
+/*
+
 console.log(Math.sqrt(25));
 console.log(25 ** (1 / 2));
 console.log(8 ** (1 / 3));
@@ -347,3 +349,48 @@ labelBalance.addEventListener('click', function () {
     if (i % 3 === 0) row.style.backgroundColor = 'blue';
   });
 });
+*/
+
+//Numeric Seperators
+
+/*
+const diameter = 287_460_000_000; // 287,460,000,000
+console.log(diameter);
+
+const price = 345_99;
+console.log(priceCents);
+
+const transferFee1 = 15_00;
+const transferFee2 = 1_500;
+
+const PI = 3.14_15
+console.log(PI)
+*/
+console.log(2 ** 53 - 1);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(2 ** 53 + 1);
+console.log(2 ** 53 + 2);
+console.log(2 ** 53 + 3);
+console.log(2 ** 53 + 4);
+
+console.log(4837985165156153132132545651n);
+console.log(BigInt(4837985165));
+
+console.log(10000n + 100000n);
+
+const huge = 22974348937498374983734793n;
+const num = 23;
+
+console.log(huge * BigInt(num));
+
+//Exceptions
+console.log(20n > 15);
+console.log(20n === 20);
+console.log(typeof 20n);
+console.log(20n == 20);
+
+console.log(huge + ' is REALLY BIG!!!');
+
+//Division
+console.log(11n / 3n);
+console.log(11 / 3);
