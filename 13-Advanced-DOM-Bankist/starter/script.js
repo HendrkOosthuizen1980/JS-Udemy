@@ -32,9 +32,9 @@ document.addEventListener('keydown', function (e) {
 
 //Selecting Elements
 
-console.log(document.documentElement);
-console.log(document.head);
-console.log(document.body);
+console.log(document.documentElement); //selects whole HTML Document
+console.log(document.head); //selects head
+console.log(document.body); //selects body
 
 const header = document.querySelector('.header');
 const allSections = document.querySelectorAll('.section');
@@ -68,3 +68,8 @@ document
   .addEventListener('click', function () {
     message.remove();
   });
+
+//Style
+
+message.style.backgroundColor = '#37383d';
+message.style.width = '120%';
